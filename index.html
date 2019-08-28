@@ -18,15 +18,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <!-- end bootstrap -->
-        <link rel="stylesheet" href="CSS/style.css">
-        <link rel="stylesheet" href="CSS/SVG.css">
+    <!-- end bootstrap -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/SVG.css">
 </head>
 
-<body>
-    <div class="container">
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
+<body class="d-flex flex-column h-100">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
                 <h1>Derek Paterson</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -36,10 +36,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="Portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -47,16 +47,66 @@
                             Contact
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Email me</a>
-                            <a class="dropdown-item" href="#">Github</a>
-                            <a class="dropdown-item" href="#">LinkedIn</a>
+                            <a class="dropdown-item" href="Contact.html">Email me</a>
+                            <a class="dropdown-item" href="https://github.com/Aphelion01237">Github</a>
+                            <a class="dropdown-item"
+                                href="https://www.linkedin.com/in/derek-paterson-6132b682/">LinkedIn</a>
                         </div>
                     </li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
+    <main role="main" class="flex-shrink-0">
+        <div class="container bg-light mt-3">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <h2>About Me</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img src="https://picsum.photos/200/300" alt=""
+                                class="img-fluid rounded float-left pb-3 pr-3">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus metus eu sapien
+                                sollicitudin elementum. Vivamus ut nisl non nisi iaculis efficitur. Morbi vel mattis
+                                urna. Praesent nec diam sit amet orci finibus aliquet vitae vitae justo. Nam at metus
+                                ultrices sem ultricies ornare. Nam accumsan feugiat lacus at faucibus. Suspendisse quis
+                                purus risus.
+                                <br><br>
+                                Aliquam volutpat feugiat enim, consequat condimentum nisi dictum ac. Sed sem nisi,
+                                sodales quis ipsum nec, luctus placerat nulla. Pellentesque bibendum a dolor ut
+                                molestie. Morbi fringilla tristique ligula eget suscipit. Proin mollis nunc vitae orci
+                                lobortis ultricies. Curabitur vestibulum laoreet leo in dapibus. Nulla et molestie
+                                metus. Aliquam in risus dui. Praesent ut sem congue, luctus libero ut, sagittis justo.
+                                Vestibulum urna leo, dignissim eget ullamcorper id, mollis a augue. Nam et mauris at
+                                dolor tincidunt tempor. Proin quis justo sit amet ligula sagittis vestibulum. Sed a
+                                lacinia ex, vel tincidunt ante.
+                                <br><br>
+                                Vivamus in nulla arcu. Pellentesque convallis odio sit amet elementum auctor. Cras
+                                viverra ipsum id leo tempus iaculis. Aenean justo erat, vestibulum id bibendum sit amet,
+                                placerat at nisl. Mauris imperdiet, tortor et mattis tincidunt, est dui porttitor augue,
+                                a dignissim ante neque quis lectus. Ut vitae ante nec diam lobortis suscipit. Vestibulum
+                                hendrerit viverra consectetur. Phasellus vestibulum, justo eu auctor scelerisque, augue
+                                sapien imperdiet urna, a tincidunt velit velit et sapien.
+                                <br><br>
+                                Vivamus pretium nisi et nisl rhoncus venenatis. Morbi eget vehicula odio, vel hendrerit
+                                lacus. Cras quis fermentum tellus. Nullam commodo finibus viverra. Morbi eget enim eget
+                                tellus accumsan convallis. Fusce nisl libero, ultricies vitae consequat id, laoreet id
+                                dolor. Integer nec augue pulvinar, commodo ex non, facilisis risus. Vestibulum rhoncus
+                                venenatis posuere.</p>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark text-light text-center">
+        <div class="container"> <span class="text-muted">Copyright</span></div>
+    </footer>
 </body>
 
 </html>
