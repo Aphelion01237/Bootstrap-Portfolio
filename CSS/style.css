@@ -1,5 +1,40 @@
+body { 
+    padding-top: 65px; 
+    padding-bottom: 70px;
+}
 footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
+.button {
+	display: inline-block;
+	margin-bottom: 1rem;
+	border: none;
+	background-color: darkcyan;
+	padding: 1rem 2rem;
+	text-align: center;
+    color: white;
+}
+.bg-dcyan {
+    background-color: darkcyan;
+}
+/* // Extra small devices (portrait phones, less than 576px)
+/* // No media query since this is the default in Bootstrap */
+@media (max-width: 575px) {
+    html {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px
+    }
+    }
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+    html {
+        font-size: 1;
+    }
+    }
